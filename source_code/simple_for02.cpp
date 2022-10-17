@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     
     for (int num = 0; num < 5; num++) {
-        if (num == 2) { break; }
+        if (num == 2) { break; }  // exits the loop
         cout << num << endl;
     }
     return 0;
