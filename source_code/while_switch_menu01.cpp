@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-	bool exit = 0; // Flag for quitting
+	bool exit = 0;
 	
 	char key;
 	cout << "Press a to attack\n" 
