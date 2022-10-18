@@ -16,10 +16,9 @@ int main()
 		v1.push_back(str + to_string(i));
 		// to_string(i) transforms i content to string
 
-	cout << "Output everything from begin->end:\n";
+	cout << "Output every content from begin->end:\n";
 	for (auto i = v1.begin(); i != v1.end(); i++)
 		cout << *i << endl;
-
 
 	return 0;
 }
