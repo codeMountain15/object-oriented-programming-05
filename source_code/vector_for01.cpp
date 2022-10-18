@@ -17,8 +17,8 @@ int main()
 		// to_string(i) transforms i content to string
 
 	cout << "Output every content from begin->end:\n";
-	for (auto i = v1.begin(); i != v1.end(); i++)
-		cout << *i << endl;
+	for (auto j = v1.begin(); j != v1.end(); j++)
+		cout << *j << endl;
 
 	return 0;
 }
