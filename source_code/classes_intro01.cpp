@@ -18,10 +18,10 @@ public:
 };
 
 int main() {
-    Sheep Kitsos;     // Create a Sheep object
-    Kitsos.speak();  // Call the speak() method
+    Sheep Kitsos;     // Create a Sheep object, named Kitsos
+    Kitsos.speak();  // Call Kitsos's speak() method
 
-    Kitsos.eat();   // Call the eat() method
+    Kitsos.eat();   // Call Kitsos's eat() method
 
     cout << "\nThis sheep weights " << Kitsos.weight << " kilograms\n";
 
