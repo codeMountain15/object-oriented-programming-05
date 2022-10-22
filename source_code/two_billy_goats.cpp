@@ -30,8 +30,6 @@ public:
 void Goat::attack(Goat* x) { x->health_decrease(); }
 // void attack(Goat *x) { (*x).health_decrease(); } // alternatively
 
-
-
 int main() {
     Goat Billy, Rookie;     // Create two Goat objects
 
