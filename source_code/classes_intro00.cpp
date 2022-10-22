@@ -1,4 +1,4 @@
-// example_class01.cpp
+// classes_intro00.cpp
 //
 
 #include <iostream>
