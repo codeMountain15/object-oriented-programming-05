@@ -20,7 +20,7 @@ public:
 	{ cout << "Hello from the mountain()\n"; this->sea(); }
 
 	//void destroy() { delete this; }
-	void destroy() { cout << "This object is located in: " << this << endl; }
+	void where() { cout << "This object is located in: " << this << endl; }
 
 	~another_Class() { cout << "Destruction activated\n"; };
 };
@@ -29,7 +29,7 @@ int main()
 {
 	another_Class clss;
 	clss.mountain();
-	clss.destroy();
+	clss.where();
 
 	return 0;
 }
