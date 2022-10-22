@@ -13,8 +13,8 @@ public:
     bool gender;        // male or female
                         // basically, male sheep are called rams
 
-    void speak() { cout << "Mpeeeee\n"; }
-    void eat() { weight += 0.5; }
+    void speak() { cout << "Mpeeeee\n"; } //inline
+    void eat() { weight += 0.5; }         //inline
 
 };
 
