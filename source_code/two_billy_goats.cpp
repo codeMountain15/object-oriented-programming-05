@@ -7,7 +7,6 @@ using namespace std;
 
 class Goat {
 public:
-
     float weight = 1.0;    // in kilograms
     bool gender;        // male or female
     // basically, male goats are called billy goats
@@ -21,7 +20,6 @@ public:
     int health_get() { return health; }
     void health_decrease() { --health; }
     void health_increase() { ++health; }
-   
 };
 
 // the example below:
