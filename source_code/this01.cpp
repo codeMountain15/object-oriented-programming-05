@@ -1,7 +1,7 @@
 // this01.cpp
 //
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class another_Class
