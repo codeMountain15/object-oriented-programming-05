@@ -15,7 +15,7 @@ public:
     void speak() { cout << "Meeeee\n"; }
     void eat() { weight += 0.5; }
     
-    void attack(Goat* x); // it is declared outside the class
+    void attack(Goat* ); // it is declared outside the class
     
     int health_get() { return health; }
     void health_decrease() { --health; }
