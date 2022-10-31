@@ -12,7 +12,7 @@ private:
 	int id;
 
 public:
-	void set_username(std::string);
+	void set_username(string);
 	void set_level(int);
 	void set_id(int);
 
