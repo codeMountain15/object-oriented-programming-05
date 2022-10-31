@@ -21,7 +21,7 @@ int main() {
     
     // Print
     cout << example.int_pu << "\n";    // ok
-    // cout << myObj.int_pr << "\n";  // error!
+    // cout << example.int_pr << "\n";  // error
 
     return 0;
 }
