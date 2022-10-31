@@ -14,7 +14,7 @@ int main()
 
     cout << "\n\n";
 
-    // data type of x is set as int
+    // data type of x is set as char
     cout << "Loop version 2\n";
     for (auto c : area)
         cout << c << " ";
