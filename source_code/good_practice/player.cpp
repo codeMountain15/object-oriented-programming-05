@@ -8,7 +8,7 @@
 using namespace std;
 
 // set methods
-void Player::set_username(string str){	
+void Player::set_username(string str) {
 	username = str;
 }
 
@@ -21,7 +21,7 @@ void Player::set_id(int a2) {
 }
 
 // get methods
-std::string Player::get_username()const {
+string Player::get_username()const {
 	return username;
 }
 
